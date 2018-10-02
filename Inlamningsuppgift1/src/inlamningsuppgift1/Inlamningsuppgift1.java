@@ -17,11 +17,12 @@ public class Inlamningsuppgift1 {
       Husdjurshotell healtypets= new Husdjurshotell(); 
       
     //Skapa databas av husdjurshotell HealtyPets
-      Hund h1= new Hund("Sixten",5000);
-      Hund h2= new Hund("Dogge",10000);
-      Katt k1= new Katt("Venus",5000);
-      Katt k2= new Katt("Ove",3000);
-      Orm o1= new Orm("Hypno",1000);
+      
+      Husdjur h1= new Hund("Sixten",5000);
+      Husdjur h2= new Hund("Dogge",10000);
+      Husdjur k1= new Katt("Venus",5000);
+      Husdjur k2= new Katt("Ove",3000);
+      Husdjur o1= new Orm("Hypno",1000);
           
     //Lägg till husdjur i olika listar av husdjurshotell HealtyPets   
       healtypets.setHusdjurList(h1);
