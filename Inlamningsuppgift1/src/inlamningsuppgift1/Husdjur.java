@@ -8,7 +8,7 @@ package inlamningsuppgift1;
  *
  * @author xingao
  */
-public class Husdjur implements IFoder{
+public class Husdjur {
     private String namn;
     private int vikt;
     private String foder;
@@ -30,14 +30,5 @@ public class Husdjur implements IFoder{
     public int getVike(){
         return vikt;
     }
-   
-    @Override
-    public String foderNamn(){
-        return foder;
-    }
-    @Override
-    public int foderGram() {
-      return fodersgram;
-    }   
-   
+      
 }

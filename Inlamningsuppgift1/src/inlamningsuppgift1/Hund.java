@@ -8,7 +8,7 @@ package inlamningsuppgift1;
  *
  * @author xingao
  */
-public class Hund extends Husdjur{
+public class Hund extends Husdjur implements IFoder{
     
     public Hund(){
         

@@ -8,7 +8,7 @@ package inlamningsuppgift1;
  *
  * @author xingao
  */
-public class Orm extends Husdjur{
+public class Orm extends Husdjur implements IFoder{
     
     public Orm(){
         

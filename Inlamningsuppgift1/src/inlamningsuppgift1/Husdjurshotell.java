@@ -44,6 +44,6 @@ public class Husdjurshotell {
         
         return "Det finns inte den husdjur! Input igen.";
      }
+      
      
-   
 }
